@@ -1,6 +1,5 @@
 const exec = require('child_process').execSync
 const fs = require('fs')
-const rp = require('request-promise')
 const download = require('download')
 
 // 公共变量

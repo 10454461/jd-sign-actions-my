@@ -11,8 +11,8 @@ on:
 jobs:
   repo-sync:
     env:
-      PAT: ${{ secrets.PAT }} #此处PAT需要申请，教程详见：https://www.jianshu.com/p/bb82b3ad1d11
-      dst_key: ${{ secrets.GITEE_PRIVATE_KEY }} # 我自己同步到gitee使用，其他人可忽略
+      #PAT: ${{ secrets.PAT }} #此处PAT需要申请，教程详见：https://www.jianshu.com/p/bb82b3ad1d11
+      dst_key: ${{ secrets.PRIVATE_KEY }} # 我自己同步到gitee使用，其他人可忽略
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
     steps:
@@ -28,14 +28,14 @@ jobs:
           source_branch: "master"
           destination_branch: "master"
           github_token: ${{ secrets.PAT }}
-          black_list: '.github'
-      # 我自己同步到gitee使用，其他人可忽略
-      - name: sync github -> gitee
+          black_list: 'repo_sync'
+          
+      - name: sync gitee -> github
         uses: Yikun/hub-mirror-action@master
         if: env.dst_key
         with:
-          src: github/lxk0301
-          dst: gitee/lxk0301
+          src: gitee/lxk0301
+          dst: github/smiek
           static_list: "jd_scripts"
-          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
-          dst_token: ${{ secrets.GITEE_TOKEN }}
+          dst_key: ${{ secrets.PRIVATE_KEY }}
+          dst_token: ${{ secrets.PAT }}

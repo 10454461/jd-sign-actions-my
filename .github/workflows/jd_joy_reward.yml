@@ -31,6 +31,7 @@ jobs:
       IGOT_PUSH_KEY: ${{ secrets.IGOT_PUSH_KEY }}
       JD_JOY_REWARD_NOTIFY: ${{ secrets.JD_JOY_REWARD_NOTIFY }}
       JD_JOY_REWARD_NAME: ${{ secrets.JD_JOY_REWARD_NAME }}
+      JD_USER_AGENT: ${{ secrets.JD_USER_AGENT }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2

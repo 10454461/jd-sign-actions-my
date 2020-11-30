@@ -33,6 +33,7 @@ jobs:
       jdBusinessCircleJump: ${{ secrets.BUSINESS_CIRCLE_JUMP }}
       SUPERMARKET_SHARECODES: ${{ secrets.SUPERMARKET_SHARECODES }}
       jdSuperMarketLottery: ${{ secrets.SUPERMARKET_LOTTERY }}
+      JD_USER_AGENT: ${{ secrets.JD_USER_AGENT }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2

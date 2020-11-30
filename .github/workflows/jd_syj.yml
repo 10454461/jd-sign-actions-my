@@ -1,24 +1,24 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: 东东小窝
+name: 十元街
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 3 * * *'
+    - cron: '10 0 * * *'
   #watch:
   #  types: started
   #repository_dispatch:
   #  types: bean_change
 jobs:
   build:
-
+    #timeout-minutes: 15 #超时时间
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
     env:
-      URL: "https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_woHome.js"
-      RUNFILE: "jd_woHome.js"
+      URL: "https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_syj.js"
+      RUNFILE: "jd_syj.js"
       JD_COOKIE: ${{ secrets.JD_COOKIE }}
       JD_DEBUG: ${{ secrets.JD_DEBUG }}
       PUSH_KEY: ${{ secrets.PUSH_KEY }}
@@ -29,6 +29,7 @@ jobs:
       DD_BOT_TOKEN: ${{ secrets.DD_BOT_TOKEN }}
       DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
       IGOT_PUSH_KEY: ${{ secrets.IGOT_PUSH_KEY }}
+      JD_USER_AGENT: ${{ secrets.JD_USER_AGENT }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -49,7 +50,7 @@ jobs:
         if: env.JD_COOKIE
         run: |
           npm install
-      - name: '运行 【东东小窝】'
+      - name: '运行 【十元街】'
         if: env.JD_COOKIE
         run: |
           node app.js

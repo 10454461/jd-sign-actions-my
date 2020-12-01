@@ -3,13 +3,7 @@
 #### 下方提供使用到的 **Secrets全集合**
 | Name                    |   值   | 说明                                                         |
 | :---------------------: | :----------: | ------------------------------------------------------------ |
-| PLANT_BEAN_SHARECODES |
-```
-rxggow4kdwppbjuyjdvliwgahkbsbgemalhzlhy@qmnmamd3ukiwrd53w4fjmpmb6c7yyogrbfj2rry
-olmijoxgmjutyskl4hhoeibiavu3pkou3keebla@qmnmamd3ukiwrd53w4fjmpmb6c7yyogrbfj2rry
-olmijoxgmjutyskl4hhoeibiavu3pkou3keebla@rxggow4kdwppbjuyjdvliwgahkbsbgemalhzlhy
-```
-| 种豆得豆互助码 |
+| PLANT_BEAN_SHARECODES | `rxggow4kdwppbjuyjdvliwgahkbsbgemalhzlhy@qmnmamd3ukiwrd53w4fjmpmb6c7yyogrbfj2rry` `olmijoxgmjutyskl4hhoeibiavu3pkou3keebla@qmnmamd3ukiwrd53w4fjmpmb6c7yyogrbfj2rry` `olmijoxgmjutyskl4hhoeibiavu3pkou3keebla@rxggow4kdwppbjuyjdvliwgahkbsbgemalhzlhy` | 种豆得豆互助码 |
 | JD_BEAN_SIGN_STOP_NOTIFY | false | 京东签到结果通知 |
 | JD_BEAN_SIGN_NOTIFY_SIMPLE | false | 京东签到结果简洁版通知 |
 | JD_BEAN_STOP | 1 | 京东签到自定义延迟签到 |

@@ -5,8 +5,8 @@ name: 京东取关商品
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '45 15 * * *'
+  #schedule:
+  #  - cron: '45 15 * * *'
   # watch:
   #       types: started
   # repository_dispatch:

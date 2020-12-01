@@ -1,35 +1,42 @@
 
 
-#### 下方提供使用到的 **Secrets全集合**
+## 下方提供使用到的 **Secrets全集合**
 
-| Name                    |   值   | 说明                                                         |
-| :---------------------: | :----------: | ------------------------------------------------------------ |
-| PLANT_BEAN_SHARECODES | `rxggow4kdwppbjuyjdvliwgahkbsbgemalhzlhy@qmnmamd3ukiwrd53w4fjmpmb6c7yyogrbfj2rry` `olmijoxgmjutyskl4hhoeibiavu3pkou3keebla@qmnmamd3ukiwrd53w4fjmpmb6c7yyogrbfj2rry` `olmijoxgmjutyskl4hhoeibiavu3pkou3keebla@rxggow4kdwppbjuyjdvliwgahkbsbgemalhzlhy` | 种豆得豆互助码 |
-| TG_BOT_TOKEN | 1290395423:AAHtbN3JApDKAJCHPIVN7SF1Zkby5cluPk4 | telegram推送 |
-| TG_USER_ID | 1049578757 | telegram推送 |
+  - 京东互助码
+  
+    | Name                    |   值   |     说明     |
+    | :---------------------: | :----------: | -------------- |
+    | PLANT_BEAN_SHARECODES | 189:`rxggow4kdwppbjuyjdvliwgahkbsbgemalhzlhy@qmnmamd3ukiwrd53w4fjmpmb6c7yyogrbfj2rry` 177:`olmijoxgmjutyskl4hhoeibiavu3pkou3keebla@qmnmamd3ukiwrd53w4fjmpmb6c7yyogrbfj2rry` 199:`olmijoxgmjutyskl4hhoeibiavu3pkou3keebla@rxggow4kdwppbjuyjdvliwgahkbsbgemalhzlhy` | 种豆得豆 |
+    | PETSHARECODES | 189:`MTAxODc2NTEzNDAwMDAwMDAyMjIzNjYyMQ==@MTAxODc2NTEzNTAwMDAwMDAyMjIzNjM3NQ==` 177:`MTAxODc2NTEzOTAwMDAwMDAyMDk1MDY0NQ==@MTAxODc2NTEzNTAwMDAwMDAyMjIzNjM3NQ==` 199:`MTAxODc2NTEzOTAwMDAwMDAyMDk1MDY0NQ==@MTAxODc2NTEzNDAwMDAwMDAyMjIzNjYyMQ==` | 东东萌宠 |
+    | FRUITSHARECODES | 189:`e4f17ec8e76543e39ff62eab878b62d5@eedcce41797c4d53aeed45ca3afab72d` 177:`d33c23dbb2c4455e88d0e2de55e09afc@eedcce41797c4d53aeed45ca3afab72d` 199:`d33c23dbb2c4455e88d0e2de55e09afc@e4f17ec8e76543e39ff62eab878b62d5` | 东东农场 |
+    | DDFACTORY_SHARECODES | 189:`P04z54XCjVWnYaS5m9cZxWQvSQQ0gDQIrS_hg@P04z54XCjVWnYaS5m9cZxm8hD0t3Asnpp0l_g` 177:`P04z54XCjVWnYaS5m9cZ2as2H5Ol29n6ShK72c@P04z54XCjVWnYaS5m9cZxm8hD0t3Asnpp0l_g` 199:`P04z54XCjVWnYaS5m9cZ2as2H5Ol29n6ShK72c@P04z54XCjVWnYaS5m9cZxWQvSQQ0gDQIrS_hg` | 东东工厂 |
+    | TG_BOT_TOKEN | `1290395423:AAHtbN3JApDKAJCHPIVN7SF1Zkby5cluPk4` | telegram推送 |
+    | TG_USER_ID | `1049578757` | telegram推送 |
 
-| Name                    |   值   | 说明                                                         |
-| :---------------------: | :----------: | ------------------------------------------------------------ |
-| JD_BEAN_SIGN_STOP_NOTIFY | false | 京东签到结果通知 |
-| JD_BEAN_SIGN_NOTIFY_SIMPLE | false | 京东签到结果简洁版通知 |
-| JD_BEAN_STOP | 1 | 京东签到自定义延迟签到 |
-| MARKET_COIN_TO_BEANS | 20 | 京小超兑换京豆数量或商品名称 |
-| MARKET_REWARD_NOTIFY | false | 京小超兑换奖品静默运行推送开关 |
-| DREAMFACTORY_NOTIFY_CONTROL | false | 惊喜工厂静默运行推送开关 |
-| FRUIT_BEAN_CARD | true |农场使用水滴换豆卡 |
-| FRUIT_NOTIFY_CONTROL | false |东东农场默运行推送开关 |
-| FACTORAY_WANTPRODUCT_NAME | '' | 东东工厂心仪商品 |
-| JOY_FEED_COUNT | 10 | 宠汪汪喂食数量 |
-| JOY_RUN_FLAG | true | 宠汪汪参加双人赛跑 |
-| JD_JOY_REWARD_NAME | 20 | 宠汪汪积分兑换多少京豆 |
-| JD_JOY_REWARD_NOTIFY | false | 宠汪汪兑换京豆静默运行推送开关 |
-| jdJoyStealCoin | true | 宠汪汪偷好友狗粮/积分 |
-| JOY_HELP_FEED | true | 宠汪汪帮好友喂食 |
-| MONEY_TREE_SELL_FRUIT | true | 摇钱树是否卖出金果 |
-| PET_NOTIFY_CONTROL | false | 东东萌宠静默运行推送开关 |
-| PURCHASE_SHOPS | true | 东东小窝加购商品 |
-| SUPERMARKET_LOTTERY | false | 京小超抽奖 |
-| SUPERMARKET_UPGRADE | false | 京小超自动升级 |
+  - 京东脚本
+
+    | Name                    |   值   | 说明          |
+    | :---------------------: | :----------: | --------------------------------- |
+    | JD_BEAN_SIGN_STOP_NOTIFY | `false` | 京东签到结果通知 |
+    | JD_BEAN_SIGN_NOTIFY_SIMPLE | `false` | 京东签到结果简洁版通知 |
+    | JD_BEAN_STOP | `1` | 京东签到自定义延迟签到 |
+    | MARKET_COIN_TO_BEANS | `20` | 京小超兑换京豆数量或商品名称 |
+    | MARKET_REWARD_NOTIFY | `false` | 京小超兑换奖品静默运行推送开关 |
+    | DREAMFACTORY_NOTIFY_CONTROL | `false` | 惊喜工厂静默运行推送开关 |
+    | FRUIT_BEAN_CARD | `true` |农场使用水滴换豆卡 |
+    | FRUIT_NOTIFY_CONTROL | `false` |东东农场默运行推送开关 |
+    | FACTORAY_WANTPRODUCT_NAME | `` | 东东工厂心仪商品 |
+    | JOY_FEED_COUNT | `10` | 宠汪汪喂食数量 |
+    | JOY_RUN_FLAG | `true` | 宠汪汪参加双人赛跑 |
+    | JD_JOY_REWARD_NAME | `20` | 宠汪汪积分兑换多少京豆 |
+    | JD_JOY_REWARD_NOTIFY | `false` | 宠汪汪兑换京豆静默运行推送开关 |
+    | jdJoyStealCoin | `true` | 宠汪汪偷好友狗粮/积分 |
+    | JOY_HELP_FEED | `true` | 宠汪汪帮好友喂食 |
+    | MONEY_TREE_SELL_FRUIT | `true` | 摇钱树是否卖出金果 |
+    | PET_NOTIFY_CONTROL | `false` | 东东萌宠静默运行推送开关 |
+    | PURCHASE_SHOPS | `true` | 东东小窝加购商品 |
+    | SUPERMARKET_LOTTERY | `false` | 京小超抽奖 |
+    | SUPERMARKET_UPGRADE | `false` | 京小超自动升级 |
 
 github actions Secrets
 github自动化设置
@@ -78,29 +85,3 @@ FACTORAY_WANTPRODUCT_NAME tring #东东工厂心仪商品 提供心仪商品名�
 DREAMFACTORY_NOTIFY_CONTROL true/false #惊喜工厂推送开关 控制jd_dreamFactory.js兑换奖品成功后是否静默运行, false为否(发送推送通知消息),true为是(即：不发送推送通知消息)
 东东小窝
 PURCHASE_SHOPS true/false #东东小窝加购商品 是否一键加购商品到购物车，默认不加购 true表示加购，false表示不加购
-
-互助码
-FRUITSHARECODES srting #东东农场互助码 填写规则请看 jdFruitShareCodes.js 或见下方互助码的填写规则
-PETSHARECODES srting #东东萌宠互助码 填写规则请看 jdPetShareCodes.js 或见下方互助码的填写规则
-PLANT_BEAN_SHARECODES srting #种豆得豆互助码 填写规则请看 jdPlantBeanShareCodes.js 或见下方互助码的填写规则
-SUPERMARKET_SHARECODES srting #京小超商圈互助码 填写规则请看 jdSuperMarketShareCodes.js 或见下方互助码的填写规则 
-DDFACTORY_SHARECODES srting #东东工厂互助码 填写规则请看 jdFactoryShareCodes.js 或见下方互助码的填写规则
-DREAM_FACTORY_SHARE_CODES srting #京喜工厂互助码 填写规则请看 jdDreamFactoryShareCodes.js 或见下方互助码的填写规则
-
-TG_PROXY_HOST tring #Telegram代理的IP 代理类型为 http。例子：http代理 http://127.0.0.1:1080 则填写 127.0.0.1
-TG_PROXY_PORT int #Telegram 代理的端口 例子：http代理 http://127.0.0.1:1080 则填写 1080
-
-#互助码的填写规则
-同一个京东账号的好友互助码用@隔开,不同京东账号互助码用&或者换行隔开,下面给一个文字示例和具体互助码示例说明
-京东账号1的shareCode1@京东账号1的shareCode2&京东账号2的shareCode1@京东账号2的shareCode2
-
-关于脚本推送通知
-目前默认只有jd_fruit.js,jd_pet.js,jd_bean_sign.js,jd_818.js四个脚本每次运行后都通知
-jd_plantBean.js是每周一收集京豆后通知一次，
-jd_joy_reward.js是每次兑换到了京豆通知一次，
-jd_blueCoin.js是每次兑换到了奖品通知一次，
-jd_818.js是每次获取新的互助码会通知一次，以帮助您快速上车，
-其余的脚本平常运行都是不通知，只有在京东cookie失效后，才会推送通知
-
-GitHub Actions 手动触发方式进化史 https://p3terx.com/archives/github-actions-manual-trigger.html    
-GitHub Actions 入门教程 https://p3terx.com/archives/github-actions-started-tutorial.html

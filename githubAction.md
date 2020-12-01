@@ -3,7 +3,7 @@
 ## 下方提供使用到的 **Secrets全集合**
 
   - 京东互助码
-  
+
     | Name                    |   值   |     说明     |
     | :---------------------: | :----------: | -------------- |
     | PLANT_BEAN_SHARECODES | 189:`rxggow4kdwppbjuyjdvliwgahkbsbgemalhzlhy@qmnmamd3ukiwrd53w4fjmpmb6c7yyogrbfj2rry` 177:`olmijoxgmjutyskl4hhoeibiavu3pkou3keebla@qmnmamd3ukiwrd53w4fjmpmb6c7yyogrbfj2rry` 199:`olmijoxgmjutyskl4hhoeibiavu3pkou3keebla@rxggow4kdwppbjuyjdvliwgahkbsbgemalhzlhy` | 种豆得豆 |
@@ -25,7 +25,7 @@
     | DREAMFACTORY_NOTIFY_CONTROL | `false` | 惊喜工厂静默运行推送开关 |
     | FRUIT_BEAN_CARD | `true` |农场使用水滴换豆卡 |
     | FRUIT_NOTIFY_CONTROL | `false` |东东农场默运行推送开关 |
-    | FACTORAY_WANTPRODUCT_NAME | `` | 东东工厂心仪商品 |
+    | FACTORAY_WANTPRODUCT_NAME | ` ` | 东东工厂心仪商品 |
     | JOY_FEED_COUNT | `10` | 宠汪汪喂食数量 |
     | JOY_RUN_FLAG | `true` | 宠汪汪参加双人赛跑 |
     | JD_JOY_REWARD_NAME | `20` | 宠汪汪积分兑换多少京豆 |

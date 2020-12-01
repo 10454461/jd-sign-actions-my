@@ -1,9 +1,15 @@
 
 
 #### 下方提供使用到的 **Secrets全集合**
+
 | Name                    |   值   | 说明                                                         |
 | :---------------------: | :----------: | ------------------------------------------------------------ |
 | PLANT_BEAN_SHARECODES | `rxggow4kdwppbjuyjdvliwgahkbsbgemalhzlhy@qmnmamd3ukiwrd53w4fjmpmb6c7yyogrbfj2rry` `olmijoxgmjutyskl4hhoeibiavu3pkou3keebla@qmnmamd3ukiwrd53w4fjmpmb6c7yyogrbfj2rry` `olmijoxgmjutyskl4hhoeibiavu3pkou3keebla@rxggow4kdwppbjuyjdvliwgahkbsbgemalhzlhy` | 种豆得豆互助码 |
+| TG_BOT_TOKEN | 1290395423:AAHtbN3JApDKAJCHPIVN7SF1Zkby5cluPk4 | telegram推送 |
+| TG_USER_ID | 1049578757 | telegram推送 |
+
+| Name                    |   值   | 说明                                                         |
+| :---------------------: | :----------: | ------------------------------------------------------------ |
 | JD_BEAN_SIGN_STOP_NOTIFY | false | 京东签到结果通知 |
 | JD_BEAN_SIGN_NOTIFY_SIMPLE | false | 京东签到结果简洁版通知 |
 | JD_BEAN_STOP | 1 | 京东签到自定义延迟签到 |
@@ -24,8 +30,6 @@
 | PURCHASE_SHOPS | true | 东东小窝加购商品 |
 | SUPERMARKET_LOTTERY | false | 京小超抽奖 |
 | SUPERMARKET_UPGRADE | false | 京小超自动升级 |
-| TG_BOT_TOKEN | 1290395423:AAHtbN3JApDKAJCHPIVN7SF1Zkby5cluPk4 | telegram推送 |
-| TG_USER_ID | 1049578757 | telegram推送 |
 
 github actions Secrets
 github自动化设置

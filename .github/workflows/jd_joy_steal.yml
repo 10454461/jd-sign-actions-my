@@ -30,7 +30,7 @@ jobs:
       DD_BOT_SECRET: ${{ secrets.DD_BOT_SECRET }}
       IGOT_PUSH_KEY: ${{ secrets.IGOT_PUSH_KEY }}
       JOY_HELP_FEED: ${{ secrets.JOY_HELP_FEED }}
-      jdJoyStealCoin: ${{ secrets.JOY_STEAL_COIN }}
+      jdJoyStealCoin: ${{ secrets.jdJoyStealCoin }}
       JD_USER_AGENT: ${{ secrets.JD_USER_AGENT }}
     steps:
       - name: Checkout

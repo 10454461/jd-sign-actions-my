@@ -5,8 +5,8 @@ name: 宠汪汪偷好友狗粮与积分
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 16,22 * * *'
+  #schedule:
+  #  - cron: '0 16,22 * * *'
   # watch:
   #   types: started
   # repository_dispatch:

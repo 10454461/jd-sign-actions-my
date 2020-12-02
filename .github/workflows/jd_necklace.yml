@@ -5,8 +5,8 @@ name: 点点券
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '10 16,12 * * *'
+  #schedule:
+  #  - cron: '10 16,12 * * *'
   #watch:
   #  types: started
   #repository_dispatch:

@@ -5,8 +5,8 @@ name: 京喜工厂
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '10 * * * *'
+  #schedule:
+  #  - cron: '10 * * * *'
   #watch:
   #  types: started
   #repository_dispatch:

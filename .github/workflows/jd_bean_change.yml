@@ -5,8 +5,8 @@ name: 京豆变动通知
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 2 * * *'
+  #schedule:
+  #  - cron: '0 2 * * *'
   #watch:
   #  types: started
   #repository_dispatch:

@@ -5,8 +5,8 @@ name: 宠汪汪积分兑换京豆
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0,4,8,16 * * *'
+  #schedule:
+  #  - cron: '0 0,4,8,16 * * *'
   #watch:
   #  types: started
   #repository_dispatch:

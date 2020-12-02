@@ -5,8 +5,8 @@ name: 种豆得豆
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 23,0-15/1 * * *' #此处为UTC-0时间
+  #schedule:
+  #  - cron: '0 23,0-15/1 * * *' #此处为UTC-0时间
   # watch:
   #   types: started
   # repository_dispatch:

@@ -5,8 +5,8 @@ name: 宠汪汪喂食
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '*/20 */1 * * *'
+  #schedule:
+  #  - cron: '*/20 */1 * * *'
   #watch:
   #  types: [started]
   #repository_dispatch:
